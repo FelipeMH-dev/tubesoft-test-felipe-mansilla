@@ -30,7 +30,7 @@ Para crear los contenedores docker, ingresar desde dos terminales distintas a la
 ```sh
 $ docker-compose build
 ```
-luego:
+luego para iniciar los contenedores:
 
 ```sh
 $ docker-compose up
