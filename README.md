@@ -1,6 +1,8 @@
 # Technical Challenge
 
-Para arrancar el proyecto se deberá:
+Para arrancar el proyecto:
+- Modificar los parámetros para conexión con base de datos postgres en el archivo src/database/database.js.
+- Ejecutar consultas del archivo db.sql (ubicado en backend)  en la base de datos para crear la tabla e insertar valores de ejemplo.
 
 - Desde una terminal ingresar a la carpeta backend y ejecutar:
  ```sh
