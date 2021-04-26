@@ -19,7 +19,7 @@ luego de haber terminado la instalación de módulos, ejecutar
 $ npm start
 ```
 
-Para realizar el test del cronometro, desde una terminal ingresar a la carpeta client y ejecutar:
+Para realizar el test del cronómetro, desde una terminal ingresar a la carpeta client y ejecutar:
 
 ```sh
 $ npm run test
@@ -30,7 +30,7 @@ Para crear los contenedores docker, ingresar desde dos terminales distintas a la
 ```sh
 $ docker-compose build
 ```
-luego:
+luego para iniciar los contenedores:
 
 ```sh
 $ docker-compose up
