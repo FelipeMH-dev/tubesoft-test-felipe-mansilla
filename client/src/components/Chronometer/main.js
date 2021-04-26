@@ -48,11 +48,13 @@ export default function Chronometer() {
     btnStart.current.className = "btn btn-primary hover";
     clearInterval(intervalRef.current);
   };
+
   const Reset = () => {
     setSeconds(0);
     setMinutes(0);
     setHours(0);
   };
+  
   const Finish = async () => {
     let timestamp = `${hours > 9 ? hours.toString() : "0" + hours.toString()}:${
       minutes > 9 ? minutes.toString() : "0" + minutes.toString()
