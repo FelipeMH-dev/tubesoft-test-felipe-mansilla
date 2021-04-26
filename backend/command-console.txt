@@ -1,5 +1,5 @@
 npm init --yes
-npm install express pg pg-hstore sequelize morgan @babel/polyfill
+npm install express cors pg pg-hstore sequelize sequelize-cli morgan @babel/polyfill
 npm install --save-dev @babel/core @babel/cli @babel/preset-env
 npm run build
 npm start
